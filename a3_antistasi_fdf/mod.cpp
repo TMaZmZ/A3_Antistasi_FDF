@@ -1,5 +1,5 @@
-name = "A3 Antistasi Extender example";
-author = "A3-Antistasi dev team";
-tooltip = "Antistasi Extender example";
+name = "Arma3 Antistasi FDF";
+author = "Punakuono ja Tuomaz";
+tooltip = "Arma3 Antistasi FDF";
 actionName = "GitHub";
-action = "https://github.com/HakonRydland/A3AExtender";
+action = "https://github.com/Punakuono1234/A3_Antistasi_FDF";
