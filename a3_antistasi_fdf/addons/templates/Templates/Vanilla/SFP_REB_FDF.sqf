@@ -100,12 +100,11 @@ if (allowDLCExpansion) then {_dlcUniforms append [
     "H_Booniehat_oli",
     "H_Cap_oli_hs",
     "H_Cap_blk",
-    "H_Cap_headphones",
-    "H_Shemag_olive_hs",
-    "H_Bandanna_gry",
-    "H_Bandanna_khk_hs",
-    "H_Bandanna_sgg",
-    "H_Bandanna_camo"
+	"H_Shemag_olive_hs",
+    "ffp_m05w_helmet_peltor",
+	"ffp_m05un_helmet",
+	"ffp_m05instructor_helmet_glasses"
+  
 ]] call _fnc_saveToTemplate;
 
 /////////////////////
