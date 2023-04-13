@@ -56,6 +56,7 @@ private _initialRebelEquipment = [
 ["rhs_ec200_mag", 10], ["rhs_ec75_mag", 10], ["ffp_telamiina_mag", 3], ["ffp_sm_65_98_ammo", 3],
 "ffp_30Rnd_762x39","ffp_100Rnd_KVKK_mag","ffp_17rnd_9x9_mag","CUP_FlareWhite_265_M","ffp_kes88_mag","ffp_smoke_white","ffp_smoke_red","ffp_handgrenade_runko43","rhs_mag_an_m14_th3",
 "B_FieldPack_cbr",
+"ffp_m05w_helmet_peltor", "ffp_m05un_helmet", "ffp_m05instructor_helmet_glasses",
 "rhs_chicom_khk","rhs_vest_commander","rhs_belt_ak4",
 "rhssaf_zrak_rd7j","rhs_1PN138","ffp_vv2000_sidemount"];
 
