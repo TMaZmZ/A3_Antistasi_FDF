@@ -9,23 +9,15 @@
 ["flagMarkerType", "flag_FIN"] call _fnc_saveToTemplate;
 
 ["vehicleBasic", "sfp_dakota"] call _fnc_saveToTemplate;
-["vehicleLightUnarmed", "ffp_rg32m"] call _fnc_saveToTemplate;
-["vehicleLightArmed", "ffp_rg32m_gmg"] call _fnc_saveToTemplate;
+["vehicleLightUnarmed", "rhsgref_cdf_reg_uaz_open"] call _fnc_saveToTemplate;
+["vehicleLightArmed", "ffp_xa360"] call _fnc_saveToTemplate;
 ["vehicleTruck", "ffp_bv206"] call _fnc_saveToTemplate;
-["vehicleMedical", "ffp_van_ambulance"] call _fnc_saveToTemplate;
-["vehicleLightAPC", "ffp_xa360"] call _fnc_saveToTemplate;
-["vehicleAPC", "ffp_bmp2_atgm"] call _fnc_saveToTemplate;
-["vehicleIFV", "ffp_cv9030"] call _fnc_saveToTemplate;
-["vehicleTank", "ffp_leopard2a6"] call _fnc_saveToTemplate;
 ["vehicleAT", "rhsgref_nat_uaz_spg9"] call _fnc_saveToTemplate;
 ["vehicleAA", "rhsgref_nat_ural_Zu23"] call _fnc_saveToTemplate;
 
 ["vehicleBoat", "ffp_gruppbat"] call _fnc_saveToTemplate;
 ["vehicleRepair", "ffp_susi_sa420_repair"] call _fnc_saveToTemplate;
-["vehicleFuel", "ffp_susi_sa420_fuel"] call _fnc_saveToTemplate;
-["vehicleAmmo", "ffp_susi_sa420_ammo"] call _fnc_saveToTemplate;
 
-["vehicleHeli", "ffp_nh90_armed"] call _fnc_saveToTemplate;
 ["vehiclePlane", "ffp_f18c"] call _fnc_saveToTemplate;
 
 ["vehicleCivCar", "C_Offroad_01_F"] call _fnc_saveToTemplate;
@@ -34,14 +26,14 @@
 ["vehicleCivBoat", "C_Rubberboat"] call _fnc_saveToTemplate;
 
 ["staticMG", "rhsgref_ins_DSHKM"] call _fnc_saveToTemplate;
-["staticAT", "ffp_musti"] call _fnc_saveToTemplate;
+["staticAT", "rhsgref_nat_SPG9"] call _fnc_saveToTemplate;
 ["staticAA", "ffp_23itk95"] call _fnc_saveToTemplate;
 ["staticMortar", "rhsgref_nat_2b14"] call _fnc_saveToTemplate;
 ["staticMortarMagHE", "rhs_mag_3vo18_10"] call _fnc_saveToTemplate;
 ["staticMortarMagSmoke", "rhs_mag_d832du_10"] call _fnc_saveToTemplate;
 
-["mineAT", "ffp_telamiina"] call _fnc_saveToTemplate;
-["mineAPERS", "ffp_sm_65_98_ammo"] call _fnc_saveToTemplate;
+["mineAT", "ffp_telamiina_mag"] call _fnc_saveToTemplate;
+["mineAPERS", "ffp_sm_65_98_mag"] call _fnc_saveToTemplate;
 
 ["breachingExplosivesAPC", [["rhs_ec75_mag", 2], ["rhs_ec75_sand_mag", 2], ["rhs_ec200_mag", 1], ["rhs_ec200_sand_mag", 1], ["rhsusf_m112_mag", 1], ["DemoCharge_Remote_Mag", 1]]] call _fnc_saveToTemplate;
 ["breachingExplosivesTank", [["rhs_ec75_mag", 4], ["rhs_ec75_sand_mag", 4], ["rhs_ec200_mag", 2], ["rhs_ec200_sand_mag", 2], ["rhs_ec400_mag", 1], ["rhs_ec400_sand_mag", 1],["DemoCharge_Remote_Mag", 2], ["rhsusf_m112_mag", 2], ["rhsusf_m112x4_mag", 1], ["rhs_charge_M2tet_x2_mag", 1], ["SatchelCharge_Remote_Mag", 1]]] call _fnc_saveToTemplate;
@@ -53,7 +45,7 @@
 private _initialRebelEquipment = [
 "ffp_rk62","ffp_pist2008","ffp_kvkk","CUP_hgun_flaregun",
 ["ffp_kes88", 50],
-["rhs_ec200_mag", 10], ["rhs_ec75_mag", 10], ["ffp_telamiina_mag", 3], ["ffp_sm_65_98_ammo", 3],
+["rhs_ec200_mag", 10], ["rhs_ec75_mag", 10], ["ffp_telamiina_mag", 50], ["ffp_sm_65_98_mag", 50],
 "ffp_30Rnd_762x39","ffp_100Rnd_KVKK_mag","ffp_17rnd_9x9_mag","CUP_FlareWhite_265_M","ffp_kes88_mag","ffp_smoke_white","ffp_smoke_red","ffp_handgrenade_runko43","rhs_mag_an_m14_th3",
 "B_FieldPack_cbr",
 "ffp_m05w_helmet_peltor", "ffp_m05un_helmet", "ffp_m05instructor_helmet_glasses",
