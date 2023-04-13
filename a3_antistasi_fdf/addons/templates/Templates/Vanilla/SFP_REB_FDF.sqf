@@ -66,41 +66,14 @@ if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment app
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
 private _rebUniforms = [
-    "rhsgref_uniform_alpenflage",
-    "rhsgref_uniform_flecktarn",
-    "rhsgref_uniform_flecktarn_full",
-    "rhsgref_uniform_tigerstripe",
-    "rhsgref_uniform_woodland",
-    "rhsgref_uniform_woodland_olive",
-    "rhsgref_uniform_olive",
-    "rhsgref_uniform_altis_lizard",
-    "rhsgref_uniform_altis_lizard_olive",
-    "rhsgref_uniform_dpm",
-    "rhsgref_uniform_dpm_olive",
-    "rhsgref_uniform_3color_desert",
-    "rhsgref_uniform_gorka_1_f",
-    "rhsgref_uniform_TLA_1",
-    "rhsgref_uniform_TLA_2",
-    "rhs_insurgent_uniform_1",
-    "rhs_insurgent_uniform_2",
-    "rhs_insurgent_uniform_3",
-    "rhs_insurgent_uniform_4",
-    "rhs_insurgent_uniform_5",
-    "U_IG_Guerilla1_1",
-    "U_IG_Guerilla2_1",
-    "U_IG_Guerilla2_2",
-    "U_IG_Guerilla2_3",
-    "U_IG_Guerilla3_1",
-    "U_IG_leader",
-    "U_IG_Guerrilla_6_1",
-    "U_I_G_resistanceLeader_F",
-    "U_I_L_Uniform_01_deserter_F"
+    "ffp_m05w_uniform",
+    "U_I_ParadeUniform_01_AAF_F"
 ];
 
 private _dlcUniforms = [];
 
 if (allowDLCEnoch) then {_dlcUniforms append [
-    "U_I_L_Uniform_01_camo_F"
+    "U_I_ParadeUniform_01_AAF_decorated_F"
 ];
 };
 
