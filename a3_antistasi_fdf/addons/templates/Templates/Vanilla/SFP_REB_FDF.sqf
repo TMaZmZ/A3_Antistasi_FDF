@@ -51,13 +51,13 @@
 ///////////////////////////
 
 private _initialRebelEquipment = [
-"rhs_weap_type94_new","rhs_weap_tt33","rhs_weap_Izh18","rhs_weap_kar98k",
-["rhs_weap_rpg75", 50],
-["IEDUrbanSmall_Remote_Mag", 10], ["IEDLandSmall_Remote_Mag", 10], ["IEDUrbanBig_Remote_Mag", 3], ["IEDLandBig_Remote_Mag", 3],
-"rhs_mag_6x8mm_mhp","rhs_mag_762x25_8","rhsgref_1Rnd_00Buck","rhsgref_1Rnd_Slug","rhsgref_5Rnd_792x57_kar98k","rhs_grenade_mkii_mag","rhs_grenade_mki_mag","rhs_mag_rdg2_black","rhs_grenade_m15_mag",
-"B_FieldPack_blk","B_FieldPack_cbr","B_FieldPack_green_F","B_FieldPack_khk","B_FieldPack_oli",
-"rhsgref_chestrig","rhsgref_chicom","rhs_vydra_3m","rhs_vest_pistol_holster","rhs_vest_commander","rhs_6sh46","rhsgref_alice_webbing",
-"rhs_acc_2dpZenit","Binocular"];
+"ffp_rk62","ffp_pist2008","ffp_kvkk","CUP_hgun_flaregun",
+["ffp_kes88", 50],
+["rhs_ec200_mag", 10], ["rhs_ec75_mag", 10], ["ffp_telamiina_mag", 3], ["ffp_sm_65_98_ammo", 3],
+"ffp_30Rnd_762x39","ffp_100Rnd_KVKK_mag","ffp_17rnd_9x9_mag","CUP_FlareWhite_265_M","ffp_kes88_mag","ffp_smoke_white","ffp_smoke_red","ffp_handgrenade_runko43","rhs_mag_an_m14_th3",
+"B_FieldPack_cbr",
+"rhs_chicom_khk","rhs_vest_commander","rhs_belt_ak4",
+"rhssaf_zrak_rd7j","rhs_1PN138","ffp_vv2000_sidemount"];
 
 if (A3A_hasTFAR) then {_initialRebelEquipment append ["tf_microdagr","tf_anprc154"]};
 if (A3A_hasTFAR && startWithLongRangeRadio) then {_initialRebelEquipment append ["tf_anprc155","tf_anprc155_coyote"]};
