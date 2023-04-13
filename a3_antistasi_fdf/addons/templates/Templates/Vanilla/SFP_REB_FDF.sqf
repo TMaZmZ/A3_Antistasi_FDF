@@ -59,29 +59,19 @@ if (A3A_hasTFARBeta && startWithLongRangeRadio) then {_initialRebelEquipment app
 ["initialRebelEquipment", _initialRebelEquipment] call _fnc_saveToTemplate;
 
 private _rebUniforms = [
-    "ffp_m05w_uniform",
-    "U_I_ParadeUniform_01_AAF_F"
+    "ffp_m05w_uniform"
+  
 ];
 
 private _dlcUniforms = [];
 
 if (allowDLCEnoch) then {_dlcUniforms append [
-    "U_I_ParadeUniform_01_AAF_decorated_F"
+  
 ];
 };
 
 if (allowDLCExpansion) then {_dlcUniforms append [
-    "U_I_C_Soldier_Bandit_4_F",
-    "U_I_C_Soldier_Bandit_1_F",
-    "U_I_C_Soldier_Bandit_2_F",
-    "U_I_C_Soldier_Bandit_5_F",
-    "U_I_C_Soldier_Bandit_3_F",
-    "U_I_C_Soldier_Para_2_F",
-    "U_I_C_Soldier_Para_3_F",
-    "U_I_C_Soldier_Para_5_F",
-    "U_I_C_Soldier_Para_4_F",
-    "U_I_C_Soldier_Para_1_F",
-    "U_I_C_Soldier_Camo_F"
+    
 ];
 };
 
