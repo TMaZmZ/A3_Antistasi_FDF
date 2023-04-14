@@ -1,6 +1,6 @@
 class CfgFunctions
 {
-    class A3A
+    class ADDON
     {
 		class init {
             file = QPATHTOFOLDER(functions\init);

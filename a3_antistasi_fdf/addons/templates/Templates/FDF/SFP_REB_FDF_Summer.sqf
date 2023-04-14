@@ -5,7 +5,7 @@
 ["name", "FDF"] call _fnc_saveToTemplate;
 
 ["flag", "flag_fin_map_ca"] call _fnc_saveToTemplate;
-["flagTexture", "\FFP_config\data\flag\fin_flag_map_ca.paa""] call _fnc_saveToTemplate;
+["flagTexture", "\FFP_config\data\flag\fin_flag_map_ca.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "flag_FIN"] call _fnc_saveToTemplate;
 
 ["vehicleBasic", "sfp_dakota"] call _fnc_saveToTemplate;
