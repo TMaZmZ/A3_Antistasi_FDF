@@ -1,6 +1,7 @@
-///////////////////////////
+/////////////////////////
 //   Rebel Information   //
 ///////////////////////////
+0 spawn a3_antistasi_fdf_functions_fnc_initVarCommon; // Custom function to changes faction colors
 
 ["name", "FDF"] call _fnc_saveToTemplate;
 
@@ -10,9 +11,9 @@
 
 ["vehicleBasic", "sfp_dakota"] call _fnc_saveToTemplate;
 ["vehicleLightUnarmed", "rhsgref_cdf_reg_uaz_open"] call _fnc_saveToTemplate;
-["vehicleLightArmed", "ffp_xa360"] call _fnc_saveToTemplate;
+["vehicleLightArmed", "rhsgref_nat_uaz_dshkm"] call _fnc_saveToTemplate;
 ["vehicleTruck", "ffp_bv206"] call _fnc_saveToTemplate;
-["vehicleAT", "rhsgref_nat_uaz_spg9"] call _fnc_saveToTemplate;
+["vehicleAT", "ffp_bmp2_atgm"] call _fnc_saveToTemplate;
 ["vehicleAA", "rhsgref_nat_ural_Zu23"] call _fnc_saveToTemplate;
 
 ["vehicleBoat", "ffp_gruppbat"] call _fnc_saveToTemplate;
@@ -26,11 +27,13 @@
 ["vehicleCivBoat", "C_Rubberboat"] call _fnc_saveToTemplate;
 
 ["staticMG", "rhsgref_ins_DSHKM"] call _fnc_saveToTemplate;
-["staticAT", "rhsgref_nat_SPG9"] call _fnc_saveToTemplate;
+["staticAT", "ffp_pstohj83"] call _fnc_saveToTemplate;
 ["staticAA", "ffp_23itk95"] call _fnc_saveToTemplate;
-["staticMortar", "rhsgref_nat_2b14"] call _fnc_saveToTemplate;
-["staticMortarMagHE", "rhs_mag_3vo18_10"] call _fnc_saveToTemplate;
-["staticMortarMagSmoke", "rhs_mag_d832du_10"] call _fnc_saveToTemplate;
+["staticMortar", "ffp_122h63"] call _fnc_saveToTemplate;
+["staticMortarMagHE", "32Rnd_155mm_Mo_shells"] call _fnc_saveToTemplate;
+//["staticMortar", "rhsgref_nat_2b14"] call _fnc_saveToTemplate;
+//["staticMortarMagHE", "rhs_mag_3vo18_10"] call _fnc_saveToTemplate;
+//["staticMortarMagSmoke", "rhs_mag_d832du_10"] call _fnc_saveToTemplate;
 
 ["mineAT", "ffp_telamiina_mag"] call _fnc_saveToTemplate;
 ["mineAPERS", "ffp_sm_65_98_mag"] call _fnc_saveToTemplate;

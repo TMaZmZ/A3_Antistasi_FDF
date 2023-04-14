@@ -2,7 +2,7 @@ class Templates {
 
 	class FDF_Base {
 		requiredAddons[] = {"Swedish_Forces_Pack", "Finnish_Forces_Pack","rhsgref_main"};
-		logo = "\vn\data_f_vietnam\logos\vn_sml_ca.paa";
+		logo = "\ffp_config\data\faction_finland_co.paa";
 		basepath = QPATHTOFOLDER(Templates\FDF); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
 	};
 	
