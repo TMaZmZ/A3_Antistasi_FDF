@@ -19,8 +19,10 @@ _time spawn {
 	Info("Changed faction color for invaders");
 };
 
+/*
 _time spawn {
 	waitUntil {uiSleep 0.1; !isNil "colorTeamPlayer" || diag_tickTime - _this > 10};
 	colorTeamPlayer = "colorBLUFOR";
 	Info("Changed faction color for players");
 };
+*/
