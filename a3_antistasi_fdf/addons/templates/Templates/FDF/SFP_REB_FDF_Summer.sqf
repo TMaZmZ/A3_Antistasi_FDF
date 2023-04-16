@@ -11,6 +11,7 @@
 
 ["vehicleBasic", "sfp_dakota"] call _fnc_saveToTemplate;
 ["vehicleLightUnarmed", "rhsgref_cdf_reg_uaz_open"] call _fnc_saveToTemplate;
+//["vehicleLightUnarmed", "ffp_rg32m"] call _fnc_saveToTemplate;
 ["vehicleLightArmed", "rhsgref_nat_uaz_dshkm"] call _fnc_saveToTemplate;
 ["vehicleTruck", "ffp_bv206"] call _fnc_saveToTemplate;
 ["vehicleAT", "ffp_bmp2_atgm"] call _fnc_saveToTemplate;
@@ -28,7 +29,7 @@
 
 ["staticMG", "rhsgref_ins_DSHKM"] call _fnc_saveToTemplate;
 ["staticAT", "ffp_pstohj83"] call _fnc_saveToTemplate;
-["staticAA", "ffp_23itk95"] call _fnc_saveToTemplate;
+["staticAA", "ffp_23itk61"] call _fnc_saveToTemplate;
 ["staticMortar", "ffp_122h63"] call _fnc_saveToTemplate;
 ["staticMortarMagHE", "32Rnd_155mm_Mo_shells"] call _fnc_saveToTemplate;
 //["staticMortar", "rhsgref_nat_2b14"] call _fnc_saveToTemplate;
@@ -47,8 +48,8 @@
 
 private _initialRebelEquipment = [
 "ffp_rk62","ffp_pist2008","ffp_kvkk","CUP_hgun_flaregun",
-["ffp_kes88", 50],
-["rhs_ec200_mag", 10], ["rhs_ec75_mag", 10], ["ffp_telamiina_mag", 50], ["ffp_sm_65_98_mag", 50],
+"ffp_kes88",
+"rhs_ec200_mag", "rhs_ec75_mag", "ffp_telamiina_mag", "ffp_sm_65_98_mag", 
 "ffp_30Rnd_762x39","ffp_100Rnd_KVKK_mag","ffp_17rnd_9x9_mag","CUP_FlareWhite_265_M","ffp_kes88_mag","ffp_smoke_white","ffp_smoke_red","ffp_handgrenade_runko43","rhs_mag_an_m14_th3",
 "B_FieldPack_cbr",
 "ffp_m05w_helmet_peltor", "ffp_m05un_helmet", "ffp_m05instructor_helmet_glasses",
