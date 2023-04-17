@@ -23,7 +23,7 @@
 ["vehiclePlane", "ffp_f18c"] call _fnc_saveToTemplate;
 
 ["vehicleCivCar", "C_Offroad_01_F"] call _fnc_saveToTemplate;
-["vehicleCivTruck", "sfp_van_hemglass"] call _fnc_saveToTemplate;
+["vehicleCivTruck", "ffp_susi_sa420"] call _fnc_saveToTemplate;
 ["vehicleCivHeli", "RHS_Mi8t_civilian"] call _fnc_saveToTemplate;
 ["vehicleCivBoat", "C_Rubberboat"] call _fnc_saveToTemplate;
 
@@ -88,9 +88,8 @@ if (allowDLCExpansion) then {_dlcUniforms append [
     "H_Cap_oli_hs",
     "H_Cap_blk",
 	"H_Shemag_olive_hs",
-    "ffp_m05w_helmet_peltor",
-	"ffp_m05un_helmet",
-	"ffp_m05instructor_helmet_glasses"
+    "ffp_m05w_helmet_peltor"
+	
   
 ]] call _fnc_saveToTemplate;
 
@@ -102,7 +101,7 @@ if (allowDLCExpansion) then {_dlcUniforms append [
 "WhiteHead_05","WhiteHead_07","WhiteHead_08","WhiteHead_09","WhiteHead_10",
 "WhiteHead_12","WhiteHead_13","WhiteHead_14","WhiteHead_15","WhiteHead_16",
 "WhiteHead_17","WhiteHead_19","WhiteHead_20","WhiteHead_21"]] call _fnc_saveToTemplate;
-["voices", ["RHS_Male01CZ","RHS_Male02CZ","RHS_Male03CZ","RHS_Male04CZ","RHS_Male05CZ"]] call _fnc_saveToTemplate;
+["voices", ["Male01FIN_FDF","Male02FIN_FDF","Male03FIN_FDF","Male04FIN_FDF","Male05FIN_FDF"]] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Loadouts       //
