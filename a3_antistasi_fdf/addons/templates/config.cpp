@@ -6,7 +6,7 @@ class CfgPatches {
         units[] = {};
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {QDOUBLES(PREFIX,core)};
+        requiredAddons[] = {QDOUBLES(PREFIX,core), "A3_Characters_F"};
         author = AUTHOR;
         authors[] = { AUTHORS };
         authorUrl = "";
@@ -16,4 +16,14 @@ class CfgPatches {
 
 class A3A {
     #include "Templates.hpp"
+};
+
+class cfgVehicles {
+	class SoldierGB;
+	class I_G_Soldier_base_F : SoldierGB {
+		genericNames = "ffp_finnish_names"; 	
+	};
+	class I_Soldier_base_F : SoldierGB {
+		genericNames = "ffp_finnish_names"; 	
+	};
 };

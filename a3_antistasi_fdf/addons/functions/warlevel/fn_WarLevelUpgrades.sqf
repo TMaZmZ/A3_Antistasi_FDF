@@ -50,8 +50,10 @@ while {true} do {
 
 		_gearlist = [];
 		_previousWarLevel = _currentWarLevel;
+		
+		if (isServer) then {
+			0 call A3_fnc_generateRebelGear; //Update AI gearlist
+		};
 	};
-
-	//Wait until next round
 	uiSleep _delay;
 };

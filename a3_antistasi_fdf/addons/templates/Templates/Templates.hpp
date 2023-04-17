@@ -1,5 +1,5 @@
 class Templates {
-
+	
 	class FDF_Base {
 		requiredAddons[] = {"Swedish_Forces_Pack", "Finnish_Forces_Pack","rhsgref_main"};
 		logo = "\ffp_config\data\faction_finland_co.paa";
