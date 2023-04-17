@@ -5,6 +5,9 @@ This is adds a Finnish Faction to Arma3's Antistasi mod. Based on A3 Antistasi E
   - Arma 3 Antistasi mod
   - Swedish Forces Pack mod
   - Finnish Force Pack mod
+  - RHS Armed forces of Russian Federation
+  - RHS US Armed forces
+  - RHS Green forces
      
 # How to get started
 - Run the `Build.ps1` script this will create a folder in the root folder called build and compile your extension into it.
