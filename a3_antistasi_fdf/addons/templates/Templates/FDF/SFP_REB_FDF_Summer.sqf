@@ -1,8 +1,25 @@
 /////////////////////////
 //   Rebel Information   //
 ///////////////////////////
-0 spawn a3_antistasi_fdf_functions_fnc_initVarCommon; // Custom function to changes faction colors
 
+// Items to be added to arsenal as war level increases
+private _warLevelUpgrades = [
+	[], // Level 1 - should be left to default equipment
+	[["ffp_m05_backpack_small",-1]], // Level 2
+	[["ffp_pp04", -1], ["ffp_66kes12",-1]], // Level 3
+	[["ffp_pp09",-1], ["ffp_kk_pkm",-1], ["ffp_66kes12_rak",-1]], // Level 4
+	[["ffp_TKiv2000",-1],["ffp_optic_TKiv2000",-1], ["V_PlateCarrier2_rgr_noflag_F",-1], ["Rangefinder",-1]], // Level 5
+	[["muzzle_snds_B",-1], ["ffp_ta11_2d",-1], ["sfp_ghillie_uniform",-1]], // Level 6
+	[["sfp_ag90_base",-1], ["optic_LRPS",-1],["ffp_nlaw",-1], ["ffp_orbiter_bag",5],["V_CarrierRigKBT_01_heavy_Olive_F",-1]], // Level 7
+	[["ffp_ito15",-1], ], // Level 8
+	[], // Level 9
+	[] // Level 10
+];
+//Spawn custom functions
+0 spawn a3_antistasi_fdf_functions_fnc_initVarCommon; // Custom function to changes faction colors
+_warLevelUpgrades spawn a3_antistasi_fdf_functions_fnc_WarLevelUpgrades;
+
+//Original file content
 ["name", "FDF"] call _fnc_saveToTemplate;
 
 ["flag", "flag_fin_map_ca"] call _fnc_saveToTemplate;

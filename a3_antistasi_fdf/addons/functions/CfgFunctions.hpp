@@ -6,5 +6,10 @@ class CfgFunctions
             file = QPATHTOFOLDER(init);
 			class initVarCommon {};
 		};
+		
+		class warlevel {
+			file = QPATHTOFOLDER(warlevel);
+			class WarLevelUpgrades {};
+		};
 	};
 };
