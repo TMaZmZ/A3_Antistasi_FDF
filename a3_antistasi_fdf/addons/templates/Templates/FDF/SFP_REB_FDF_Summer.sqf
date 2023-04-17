@@ -8,10 +8,10 @@ private _warLevelUpgrades = [
 	[["ffp_m05_backpack_small",-1]], // Level 2
 	[["ffp_pp04", -1], ["ffp_66kes12",-1]], // Level 3
 	[["ffp_pp09",-1], ["ffp_kk_pkm",-1], ["ffp_66kes12_rak",-1]], // Level 4
-	[["ffp_TKiv2000",-1],["ffp_optic_TKiv2000",-1], ["ffp_apilas",-1], ["V_PlateCarrier2_rgr_noflag_F",-1]], // Level 5
+	[["ffp_TKiv2000",-1],["ffp_optic_TKiv2000",-1], ["V_PlateCarrier2_rgr_noflag_F",-1], ["Rangefinder",-1]], // Level 5
 	[["muzzle_snds_B",-1], ["ffp_ta11_2d",-1], ["sfp_ghillie_uniform",-1]], // Level 6
 	[["sfp_ag90_base",-1], ["optic_LRPS",-1],["ffp_nlaw",-1], ["ffp_orbiter_bag",5],["V_CarrierRigKBT_01_heavy_Olive_F",-1]], // Level 7
-	[], // Level 8
+	[["ffp_ito15",-1], ], // Level 8
 	[], // Level 9
 	[] // Level 10
 ];
