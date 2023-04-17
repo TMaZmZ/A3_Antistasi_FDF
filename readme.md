@@ -17,5 +17,5 @@ This is adds a Finnish Faction to Arma3's Antistasi mod. Based on A3 Antistasi E
       if successful it will have added that folder in the list of watched folders and a green box would have shown
       stating that a mod has been installed
 
-  2) Load `Antistasi - The Mod`, `A3 Antistasi FDF`, `Swedish Forces Pack` and `Finnish Forces pack` mods
+  2) Load `Antistasi - The Mod`, `A3 Antistasi FDF`, `Swedish Forces Pack`, `Finnish Forces pack`, `RHSAFRF`, `RHSUSAF` and `RHSGREF` mods
   3) Run the game with mods enabled
