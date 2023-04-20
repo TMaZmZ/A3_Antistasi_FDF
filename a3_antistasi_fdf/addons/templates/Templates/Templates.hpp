@@ -14,4 +14,15 @@ class Templates {
 		maps[] = {"vt7"}; //if this template should be prioritized on any maps (case sensetive to worldName)
 		climate[] = {"arid", "temperate"}; //climate that the template is meant for
 	};
+	
+	class RHS_AFRF_Temperate;
+	class PMC_Wagner : RHS_AFRF_Temperate
+    {
+		//logo = "\templates\data\wagner_logo_alter.paa";
+		//flagTexture = "templates\data\wagner_logo.paa";
+		basepath = QPATHTOFOLDER(Templates\Wagner); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
+		name = "PMC Wagner";
+        file = "RHS_AI_WAGNER_Temperate";
+        climate[] = {"temperate","tropical","arctic"};
+    };
 };
