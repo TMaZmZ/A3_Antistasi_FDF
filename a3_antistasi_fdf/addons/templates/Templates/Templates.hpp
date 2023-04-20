@@ -18,8 +18,8 @@ class Templates {
 	class RHS_AFRF_Temperate;
 	class PMC_Wagner : RHS_AFRF_Temperate
     {
-		//logo = "\templates\data\wagner_logo_alter.paa";
-		//flagTexture = "templates\data\wagner_logo.paa";
+		logo = QPATHTOFOLDER(data\wagner_logo_alter.paa);
+		flagTexture = QPATHTOFOLDER(data\wagner_logo.paa);
 		basepath = QPATHTOFOLDER(Templates\Wagner); //the path to the folder the template is located in, this translates to "\x\A3AE\addons\templates\Templates\Vanilla"
 		name = "PMC Wagner";
         file = "RHS_AI_WAGNER_Temperate";

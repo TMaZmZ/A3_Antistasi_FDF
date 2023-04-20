@@ -23,7 +23,28 @@ class cfgVehicles {
 	class I_G_Soldier_base_F : SoldierGB {
 		genericNames = "ffp_finnish_names"; 	
 	};
+	/*
 	class I_Soldier_base_F : SoldierGB {
 		genericNames = "ffp_finnish_names"; 	
+	};
+	*/
+};
+
+class cfgMarkerClasses
+{
+		class a3_antistasi_fdf_marker_flags
+		{
+			displayName="Custom flags"
+		};
+};
+
+class cfgMarkers {
+	class flag_Russia;
+	class flag_Wagner : flag_Russia {
+		name="Wagner insignia";
+		icon=QPATHTOFOLDER(data\wagner_logo_alter.paa);
+		texture=QPATHTOFOLDER(data\wagner_logo_alter.paa);
+		color[]={1,1,1,1};
+		markerClass="a3_antistasi_fdf_marker_flags";
 	};
 };

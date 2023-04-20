@@ -2,18 +2,20 @@
 //   Side Information   //
 //////////////////////////
 
-["name", "WAGNER"] call _fnc_saveToTemplate;
-["spawnMarkerName", "WAGNER Support Corridor"] call _fnc_saveToTemplate;
+["name", "PMC Wagner"] call _fnc_saveToTemplate;
+["spawnMarkerName", "PMC Wagner Support Corridor"] call _fnc_saveToTemplate;
+
+
+["flag", "flag_Wagner"] call _fnc_saveToTemplate;
+["flagTexture", "\a3_antistasi_fdf\templates\Templates\data\wagner_logo.paa"] call _fnc_saveToTemplate;
+["flagMarkerType", "flag_Wagner"] call _fnc_saveToTemplate;
+
 
 /*
-["flag", "fdf_Flag_Wagner_F"] call _fnc_saveToTemplate;
-["flagTexture", "a3_antistasi_fdf\addons\templates\Templates\Wagner\wagner_logo.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "flag_Wagner"] call _fnc_saveToTemplate;
-*/
-
 ["flag", "rhs_Flag_Russia_F"] call _fnc_saveToTemplate;
 ["flagTexture", "rhsafrf\addons\rhs_main\data\flag_rus_co.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "flag_Russia"] call _fnc_saveToTemplate;
+*/
 //////////////////////////
 //       Vehicles       //
 //////////////////////////
@@ -149,6 +151,7 @@ _loadoutData set ["engBackpacks", ["rhs_assault_umbts_engineer_empty"]];
 _loadoutData set ["helmets", []];
 _loadoutData set ["slHat", ["rhs_beret_vdv1", "rhs_beret_vdv2", "rhs_beret_vdv3"]];
 _loadoutData set ["sniHats", ["rhs_Booniehat_digi"]];
+_loadoutData set ["facewear", ["Armband_White_large"]];
 
 
 //Item *set* definitions. These are added in their entirety to unit loadouts. No randomisation is applied.
@@ -191,12 +194,12 @@ _loadoutData set ["items_unarmed_extras", []];
 ///////////////////////////////////////
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_sfLoadoutData set ["uniforms", ["rhs_uniform_6sh122_gloves_v1"]];
-_sfLoadoutData set ["vests", ["rhs_6b23_digi_6sh92_Spetsnaz", "rhs_6b23_digi_6sh92_spetsnaz2"]];
-_sfLoadoutData set ["slVests", ["rhs_6b23_digi_6sh92_headset_spetsnaz", "rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz"]];
-_sfLoadoutData set ["glVests", ["rhs_6b23_digi_6sh92_Vog_Spetsnaz", "rhs_6b23_digi_6sh92_Vog_Radio_Spetsnaz"]];
+_sfLoadoutData set ["uniforms", ["rhs_uniform_g3_aor2","rhs_uniform_g3_rgr"]];
+_sfLoadoutData set ["vests", ["rhsusf_spcs_ucp_rifleman"]];
+_sfLoadoutData set ["slVests", ["rhsusf_spcs_ucp_squadleader"]];
+_sfLoadoutData set ["glVests", ["rhsusf_spcs_ucp_grenadier"]];
 _sfLoadoutData set ["backpacks", ["rhs_assault_umbts", "B_Kitbag_sgg", "rhs_sidor"]];
-_sfLoadoutData set ["helmets", ["rhs_Booniehat_digi", "rhs_altyn", "rhs_altyn_novisor", "rhs_altyn_novisor_ess", "rhs_gssh18"]];
+_sfLoadoutData set ["helmets", ["H_HelmetB_snakeskin","H_HelmetSpecB_blk","rhsusf_opscore_rg_cover_pelt","rhsusf_opscore_bk_pelt"]];
 _sfLoadoutData set ["slHat", ["rhs_beret_mvd"]];
 _sfLoadoutData set ["binoculars", ["Laserdesignator_03"]];
 
@@ -272,12 +275,12 @@ _sfLoadoutData set ["sidearms", [
 /////////////////////////////////
 
 private _militaryLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_militaryLoadoutData set ["uniforms", ["rhs_uniform_vkpo", "rhs_uniform_vkpo_gloves"]];
+_militaryLoadoutData set ["uniforms", ["rhs_uniform_gorka_r_g","rhs_uniform_gorka_r_g_gloves","rhs_uniform_gorka_r_y","rhs_uniform_gorka_r_y_gloves"]];
 _militaryLoadoutData set ["vests", ["rhs_6b45_rifleman", "rhs_6b45_rifleman_2"]];
 _militaryLoadoutData set ["slVests", ["rhs_6b45_off"]];
 _militaryLoadoutData set ["glVests", ["rhs_6b45_grn"]];
 _militaryLoadoutData set ["backpacks", ["rhs_rk_sht_30_emr", "rhs_tortila_emr", "rhs_rk_sht_30_emr_engineer_empty"]];
-_militaryLoadoutData set ["helmets", ["rhs_6b47", "rhs_6b47_6m2_1", "rhs_6b47_bala", "rhs_6b47_emr_1", "rhs_6b47_ess_bala", "rhs_6b47_6B50"]];
+_militaryLoadoutData set ["helmets", ["rhs_altyn_novisor","rhs_altyn_novisor_bala","rhs_altyn_novisor_ess"]];
 _militaryLoadoutData set ["binoculars", ["Laserdesignator_03"]];
 
 _militaryLoadoutData set ["slRifles", [
@@ -350,7 +353,7 @@ _policeLoadoutData set ["SMGs", ["rhs_weap_pp2000"]];
 ////////////////////////////////
 
 private _militiaLoadoutData = _loadoutData call _fnc_copyLoadoutData;
-_militiaLoadoutData set ["uniforms", ["rhs_uniform_afghanka_vsr_1"]];
+_militiaLoadoutData set ["uniforms", ["rhs_uniform_6sh122_v1","rhs_uniform_6sh122_gloves_v1"]];
 _militiaLoadoutData set ["vests", ["rhs_6b3_AK"]];
 _militiaLoadoutData set ["slVests", ["rhs_6b3_off", "rhs_6b3_R148"]];
 _militiaLoadoutData set ["glVests", ["rhs_6b3_VOG", "rhs_6b3_VOG_2"]];
@@ -399,7 +402,7 @@ _pilotLoadoutData set ["helmets", ["rhs_zsh7a_mike_alt", "rhs_zsh7a_mike", "rhs_
 /////////////////////////////////
 
 private _squadLeaderTemplate = {
-    //["Armband_White_large"] call _fnc_setFaceWear;
+    ["facewear"] call _fnc_setFacewear;
 	["slHat"] call _fnc_setHelmet;
     [["slVests", "vests"] call _fnc_fallback] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -430,6 +433,7 @@ private _squadLeaderTemplate = {
 };
 
 private _riflemanTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["helmets"] call _fnc_setHelmet;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -455,6 +459,7 @@ private _riflemanTemplate = {
 };
 
 private _medicTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["helmets"] call _fnc_setHelmet;
     [["medVests", "vests"] call _fnc_fallback] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -480,6 +485,7 @@ private _medicTemplate = {
 };
 
 private _grenadierTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["helmets"] call _fnc_setHelmet;
     [["glVests", "vests"] call _fnc_fallback] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -506,6 +512,7 @@ private _grenadierTemplate = {
 };
 
 private _explosivesExpertTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["helmets"] call _fnc_setHelmet;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -538,6 +545,7 @@ private _explosivesExpertTemplate = {
 };
 
 private _engineerTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["helmets"] call _fnc_setHelmet;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -566,6 +574,7 @@ private _engineerTemplate = {
 };
 
 private _latTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["helmets"] call _fnc_setHelmet;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -595,6 +604,7 @@ private _latTemplate = {
 };
 
 private _atTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["helmets"] call _fnc_setHelmet;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -624,6 +634,7 @@ private _atTemplate = {
 };
 
 private _aaTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["helmets"] call _fnc_setHelmet;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -653,6 +664,7 @@ private _aaTemplate = {
 };
 
 private _machineGunnerTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["helmets"] call _fnc_setHelmet;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -678,6 +690,7 @@ private _machineGunnerTemplate = {
 };
 
 private _marksmanTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["sniHats"] call _fnc_setHelmet;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -704,6 +717,7 @@ private _marksmanTemplate = {
 };
 
 private _sniperTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["sniHats"] call _fnc_setHelmet;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -730,6 +744,7 @@ private _sniperTemplate = {
 };
 
 private _policeTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["helmets"] call _fnc_setHelmet;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -753,6 +768,7 @@ private _policeTemplate = {
 };
 
 private _crewTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["helmets"] call _fnc_setHelmet;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
@@ -777,6 +793,7 @@ private _crewTemplate = {
 };
 
 private _unarmedTemplate = {
+	["facewear"] call _fnc_setFacewear;
     ["vests"] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
 

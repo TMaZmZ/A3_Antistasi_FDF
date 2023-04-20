@@ -35,6 +35,7 @@ while {true} do {
 	//Add new stuff to arsenal if war level increased from previous check
 	if (_currentWarLevel > _previousWarLevel) then 
 	{
+		//Upgrade gear
 		private _gearlist = _list select _currentWarLevel;
 		if (!isNil {_gearlist select 0}) then
 		{
@@ -52,7 +53,7 @@ while {true} do {
 		_previousWarLevel = _currentWarLevel;
 		
 		if (isServer) then {
-			0 call A3_fnc_generateRebelGear; //Update AI gearlist
+			0 call A3A_fnc_generateRebelGear; //Update AI gearlist
 		};
 	};
 	uiSleep _delay;

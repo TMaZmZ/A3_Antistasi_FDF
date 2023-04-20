@@ -22,9 +22,9 @@ _warLevelUpgrades spawn a3_antistasi_fdf_functions_fnc_WarLevelUpgrades;
 //Original file content
 ["name", "FDF"] call _fnc_saveToTemplate;
 
-["flag", "flag_fin_map_ca"] call _fnc_saveToTemplate;
+["flag", "Flag_FIA_F"] call _fnc_saveToTemplate;
 ["flagTexture", "\FFP_config\data\flag\fin_flag_map_ca.paa"] call _fnc_saveToTemplate;
-["flagMarkerType", "flag_FIN"] call _fnc_saveToTemplate;
+["flagMarkerType", "ffp_flag"] call _fnc_saveToTemplate;
 
 ["vehicleBasic", "sfp_dakota"] call _fnc_saveToTemplate;
 ["vehicleLightUnarmed", "rhsgref_cdf_reg_uaz_open"] call _fnc_saveToTemplate;
@@ -117,7 +117,7 @@ if (allowDLCExpansion) then {_dlcUniforms append [
 "WhiteHead_05","WhiteHead_07","WhiteHead_08","WhiteHead_09","WhiteHead_10",
 "WhiteHead_12","WhiteHead_13","WhiteHead_14","WhiteHead_15","WhiteHead_16",
 "WhiteHead_17","WhiteHead_19","WhiteHead_20","WhiteHead_21"]] call _fnc_saveToTemplate;
-["voices", ["Male01FIN_FDF","Male02FIN_FDF","Male03FIN_FDF","Male04FIN_FDF","Male05FIN_FDF"]] call _fnc_saveToTemplate;
+["voices", ["Male01ENG", "Male02ENG", "Male03ENG", "Male04ENG", "Male05ENG", "Male06ENG", "Male07ENG", "Male08ENG", "Male09ENG", "Male10ENG", "Male11ENG", "Male12ENG"]] call _fnc_saveToTemplate;
 
 //////////////////////////
 //       Loadouts       //
@@ -128,13 +128,12 @@ _loadoutData set ["maps", ["ItemMap"]];
 _loadoutData set ["watches", ["ItemWatch"]];
 _loadoutData set ["compasses", ["ItemCompass"]];
 _loadoutData set ["binoculars", ["Binocular"]];
-
 _loadoutData set ["uniforms", _rebUniforms];
-
 _loadoutData set ["items_medical_basic", ["BASIC"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_medical_standard", ["STANDARD"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_medical_medic", ["MEDIC"] call A3A_fnc_itemset_medicalSupplies];
 _loadoutData set ["items_miscEssentials", [] call A3A_fnc_itemset_miscEssentials];
+_loadoutData set ["facewear",["Armband_Blue_large"]];
 
 ////////////////////////
 //  Rebel Unit Types  //
@@ -150,6 +149,7 @@ private _squadLeaderTemplate = {
     ["watches"] call _fnc_addWatch;
     ["compasses"] call _fnc_addCompass;
     ["binoculars"] call _fnc_addBinoculars;
+	["facewear"] call _fnc_setFacewear;
 };
 
 private _riflemanTemplate = {
@@ -161,6 +161,7 @@ private _riflemanTemplate = {
     ["maps"] call _fnc_addMap;
     ["watches"] call _fnc_addWatch;
     ["compasses"] call _fnc_addCompass;
+	["facewear"] call _fnc_setFacewear;
 };
 
 private _prefix = "militia";
