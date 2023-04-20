@@ -399,7 +399,8 @@ _pilotLoadoutData set ["helmets", ["rhs_zsh7a_mike_alt", "rhs_zsh7a_mike", "rhs_
 /////////////////////////////////
 
 private _squadLeaderTemplate = {
-    ["slHat"] call _fnc_setHelmet;
+    //["Armband_White_large"] call _fnc_setFaceWear;
+	["slHat"] call _fnc_setHelmet;
     [["slVests", "vests"] call _fnc_fallback] call _fnc_setVest;
     ["uniforms"] call _fnc_setUniform;
 
