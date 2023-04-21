@@ -194,8 +194,8 @@ _loadoutData set ["items_unarmed_extras", []];
 ///////////////////////////////////////
 
 private _sfLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_sfLoadoutData set ["uniforms", ["rhs_uniform_g3_aor2","rhs_uniform_g3_rgr"]];
-_sfLoadoutData set ["vests", ["rhsusf_spcs_ucp_rifleman"]];
+_sfLoadoutData set ["uniforms", ["rhs_uniform_g3_aor2","rhs_uniform_g3_rgr","rhs_uniform_g3_mc","U_B_CombatUniform_mcam_tshirt"]];
+_sfLoadoutData set ["vests", ["rhsusf_spcs_ucp_rifleman","V_platecarrier1_rgr_noflag_F"]];
 _sfLoadoutData set ["slVests", ["rhsusf_spcs_ucp_squadleader"]];
 _sfLoadoutData set ["glVests", ["rhsusf_spcs_ucp_grenadier"]];
 _sfLoadoutData set ["backpacks", ["rhs_assault_umbts", "B_Kitbag_sgg", "rhs_sidor"]];
@@ -337,9 +337,9 @@ _militaryLoadoutData set ["sniperRifles", [
 ///////////////////////////////
 
 private _policeLoadoutData = _loadoutData call _fnc_copyLoadoutData; // touch and shit breaks
-_policeLoadoutData set ["uniforms", ["rhs_uniform_cossack"]];
+_policeLoadoutData set ["uniforms", ["rhs_uniform_afghanka_boots"]];
 _policeLoadoutData set ["vests", ["rhs_6b2_lifchik", "rhs_6b2_chicom"]];
-_policeLoadoutData set ["helmets", ["rhs_cossack_visor_cap", "rhs_cossack_papakha"]];
+_policeLoadoutData set ["helmets", ["rhs_cossack_visor_cap", "rhs_fieldcap_vsr","rhs_fieldcap_khk","rhs_fieldcap_m88_back"]];
 _policeLoadoutData set ["rifles", [
 ["rhs_weap_akmn", "rhs_acc_dtkakm", "", "", ["rhs_10Rnd_762x39mm"], [], ""]
 ]];
