@@ -6,10 +6,10 @@
 ["spawnMarkerName", "PMC Wagner Support Corridor"] call _fnc_saveToTemplate;
 
 
-[//"flag", "rhs_Flag_Russia_F"] call _fnc_saveToTemplate;
-//["flagTexture", "\a3_antistasi_fdf\templates\Templates\data\wagner_logo.paa"] call _fnc_saveToTemplate;
+//"flag", "rhs_Flag_Russia_F"] call _fnc_saveToTemplate;
 ["flag", "Flag_CSAT_F"] call _fnc_saveToTemplate;
-["flagTexture", "A3\Data_F\Flags\Flag_CSAT_CO.paa"] call _fnc_saveToTemplate;
+//["flagTexture", "A3\Data_F\Flags\Flag_CSAT_CO.paa"] call _fnc_saveToTemplate;
+["flagTexture", "x\a3_antistasi_fdf\addons\templates\data\wagner_flag.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "flag_Wagner"] call _fnc_saveToTemplate;
 
 
