@@ -37,7 +37,7 @@ class cfgMarkers {
 	class flag_Russia;
 	class flag_Wagner : flag_Russia {
 		name="Wagner flag";
-		icon=QPATHTOFOLDER(data\wagner_flag.paa);
+		icon=QPATHTOFOLDER(data\wagner_logo_alter.paa);
 		texture=QPATHTOFOLDER(data\wagner_flag.paa);
 		color[]={1,1,1,1};
 		markerClass="a3_antistasi_fdf_marker_flags";

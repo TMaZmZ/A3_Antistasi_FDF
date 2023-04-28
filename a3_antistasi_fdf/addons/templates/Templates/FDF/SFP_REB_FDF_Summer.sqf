@@ -23,7 +23,7 @@ _warLevelUpgrades spawn a3_antistasi_fdf_functions_fnc_WarLevelUpgrades;
 ["name", "FDF"] call _fnc_saveToTemplate;
 
 ["flag", "Flag_FIA_F"] call _fnc_saveToTemplate;
-["flagTexture", "\FFP_config\data\flag\fin_flag_map_ca.paa"] call _fnc_saveToTemplate;
+["flagTexture", "\FFP_config\data\flag\fin_flag_ca.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "ffp_flag"] call _fnc_saveToTemplate;
 
 ["vehicleBasic", "sfp_dakota"] call _fnc_saveToTemplate;
