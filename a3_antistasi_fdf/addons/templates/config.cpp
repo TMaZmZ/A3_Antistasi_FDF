@@ -29,7 +29,7 @@ class cfgMarkerClasses
 {
 		class a3_antistasi_fdf_marker_flags
 		{
-			displayName="Custom flags"
+			displayName="Custom flags";
 		};
 };
 

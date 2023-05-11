@@ -26,28 +26,29 @@ _warLevelUpgrades spawn a3_antistasi_fdf_functions_fnc_WarLevelUpgrades;
 ["flagTexture", "\FFP_config\data\flag\fin_flag_ca.paa"] call _fnc_saveToTemplate;
 ["flagMarkerType", "ffp_flag"] call _fnc_saveToTemplate;
 
-["vehicleBasic", "sfp_dakota"] call _fnc_saveToTemplate;
-["vehicleLightUnarmed", "rhsgref_cdf_reg_uaz_open"] call _fnc_saveToTemplate;
-//["vehicleLightUnarmed", "ffp_rg32m"] call _fnc_saveToTemplate;
-["vehicleLightArmed", "rhsgref_nat_uaz_dshkm"] call _fnc_saveToTemplate;
-["vehicleTruck", "ffp_bv206"] call _fnc_saveToTemplate;
-["vehicleAT", "ffp_bmp2_atgm"] call _fnc_saveToTemplate;
-["vehicleAA", "rhsgref_nat_ural_Zu23"] call _fnc_saveToTemplate;
+["vehiclesBasic", ["sfp_dakota"]] call _fnc_saveToTemplate;
+["vehiclesLightUnarmed", ["rhsgref_cdf_reg_uaz_open"]] call _fnc_saveToTemplate;
+["vehiclesLightArmed", ["rhsgref_nat_uaz_dshkm"]] call _fnc_saveToTemplate;
+["vehiclesTruck", ["ffp_bv206"]] call _fnc_saveToTemplate;
+["vehiclesAT", ["ffp_bmp2_atgm"]] call _fnc_saveToTemplate;
+["vehiclesAA", ["rhsgref_nat_ural_Zu23"]] call _fnc_saveToTemplate;
 
-["vehicleBoat", "ffp_gruppbat"] call _fnc_saveToTemplate;
-["vehicleRepair", "ffp_susi_sa420_repair"] call _fnc_saveToTemplate;
+["vehiclesBoat", ["ffp_gruppbat"]] call _fnc_saveToTemplate;
 
-["vehiclePlane", "ffp_f18c"] call _fnc_saveToTemplate;
+["vehiclePlane", ["ffp_f18c"]] call _fnc_saveToTemplate;
 
-["vehicleCivCar", "C_Offroad_01_F"] call _fnc_saveToTemplate;
-["vehicleCivTruck", "ffp_susi_sa420"] call _fnc_saveToTemplate;
-["vehicleCivHeli", "RHS_Mi8t_civilian"] call _fnc_saveToTemplate;
-["vehicleCivBoat", "C_Rubberboat"] call _fnc_saveToTemplate;
+["vehiclesRepair", ["ffp_susi_sa420_repair"]] call _fnc_saveToTemplate;
+["vehiclesMedical", ["rhsgref_ins_g_gaz66_ap2"]] call _fnc_saveToTemplate;
 
-["staticMG", "rhsgref_ins_DSHKM"] call _fnc_saveToTemplate;
-["staticAT", "ffp_pstohj83"] call _fnc_saveToTemplate;
-["staticAA", "ffp_23itk61"] call _fnc_saveToTemplate;
-["staticMortar", "ffp_122h63"] call _fnc_saveToTemplate;
+["vehiclesCivCar", ["C_Offroad_01_F"]] call _fnc_saveToTemplate;
+["vehiclesCivTruck", ["ffp_susi_sa420"]] call _fnc_saveToTemplate;
+["vehiclesCivHeli", ["RHS_Mi8t_civilian"]] call _fnc_saveToTemplate;
+["vehiclesCivBoat", ["C_Rubberboat"]] call _fnc_saveToTemplate;
+
+["staticMGs", ["rhsgref_ins_DSHKM"]] call _fnc_saveToTemplate;
+["staticAT", ["ffp_pstohj83"]] call _fnc_saveToTemplate;
+["staticAA", ["ffp_23itk61"]] call _fnc_saveToTemplate;
+["staticMortar", ["ffp_122h63"]] call _fnc_saveToTemplate;
 ["staticMortarMagHE", "32Rnd_155mm_Mo_shells"] call _fnc_saveToTemplate;
 //["staticMortar", "rhsgref_nat_2b14"] call _fnc_saveToTemplate;
 //["staticMortarMagHE", "rhs_mag_3vo18_10"] call _fnc_saveToTemplate;
