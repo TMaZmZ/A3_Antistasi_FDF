@@ -29,20 +29,20 @@ _warLevelUpgrades spawn a3_antistasi_fdf_functions_fnc_WarLevelUpgrades;
 ["vehiclesBasic", ["sfp_dakota", "I_G_Quadbike_01_F"]] call _fnc_saveToTemplate;
 ["vehiclesLightUnarmed", ["rhsgref_cdf_reg_uaz_open"]] call _fnc_saveToTemplate;
 ["vehiclesLightArmed", ["rhsgref_nat_uaz_dshkm"]] call _fnc_saveToTemplate;
-["vehiclesTruck", ["ffp_bv206"]] call _fnc_saveToTemplate;
+["vehiclesTruck", ["ffp_bv206","ffp_susi_sa420_covered"]] call _fnc_saveToTemplate;
 ["vehiclesAT", ["ffp_bmp2_atgm"]] call _fnc_saveToTemplate;
 ["vehiclesAA", ["rhsgref_nat_ural_Zu23"]] call _fnc_saveToTemplate;
 
 ["vehiclesBoat", ["ffp_gruppbat"]] call _fnc_saveToTemplate;
 
-["vehiclesPlane", ["ffp_f18c"]] call _fnc_saveToTemplate;
-["vehiclesMedical", ["rhsgref_ins_g_gaz66_ap2"]] call _fnc_saveToTemplate;
+["vehiclesPlane", ["ffp_jas39e"]] call _fnc_saveToTemplate;
+["vehiclesMedical", ["ffp_van_ambulance"]] call _fnc_saveToTemplate;
 
 ["vehiclesRepair", ["ffp_susi_sa420_repair"]] call _fnc_saveToTemplate;
 
 ["vehiclesCivCar", ["C_Offroad_01_F", "C_Hatchback_01_F", "C_Hatchback_01_sport_F", "C_SUV_01_F"]] call _fnc_saveToTemplate;
 ["vehiclesCivTruck", ["ffp_susi_sa420", "C_Van_01_transport_F", "C_Van_02_transport_F", "C_Van_02_vehicle_F"]] call _fnc_saveToTemplate;
-["vehiclesCivHeli", ["RHS_Mi8t_civilian"]] call _fnc_saveToTemplate;
+["vehiclesCivHeli", ["ffp_md500", "RHS_Mi8t_civilian"]] call _fnc_saveToTemplate;
 ["vehiclesCivBoat", ["C_Rubberboat"]] call _fnc_saveToTemplate;
 
 ["staticMGs", ["rhsgref_ins_DSHKM"]] call _fnc_saveToTemplate;
